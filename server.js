@@ -7,5 +7,5 @@ require("./controllers/xat")(http);
 
 
 http.listen(8000, process.env.IP,function() {
-    console.log('listening on host '+process.env.IP+':'+8000);
+    console.log('listening on host '+process.env.IP+':'+process.env.PORT);
 });
